@@ -1,0 +1,159 @@
+.fa{
+    float: left;
+    padding: 1px;
+    color: cornsilk;
+    margin-top: 3px;
+    margin-left: 9px;
+}
+
+.fa:hover{
+    opacity: 0.7;
+}
+
+p{
+    font-size: 55%;
+}
+
+.un {
+    font-size: 32% !important; 
+         
+}
+
+.topnav{
+    z-index: auto;
+    position: static;
+}
+
+.navi{
+    margin-top: 12px;
+    margin-right: -1px;
+}
+
+.act{
+  border-radius: 30px;
+    
+}
+
+.fonti{
+font-size: 60%;
+}
+
+.fontu{font-size: 65%;}
+
+.navi ul li:hover {
+    background: rgb(0,123,255);
+    border-radius: 30px;
+}
+
+.mo-bar {
+    color: cornsilk;
+    align-content: center;
+    font-size: 50%;
+    position: sticky;
+    margin-top: 4px;
+    width: 550px;
+    height: 15px;
+}
+.mo-he{
+    font-family: WildWest;
+    text-align: center;
+}
+.mo-text{
+    position: sticky;
+    margin-top: 10px;
+    margin-left: 150px;
+    width: 450px;
+    
+}
+
+.numbar{
+    margin-top: 40px;
+    margin-left: -1px;
+    margin-bottom: 60px;
+}
+
+.numbar img{
+    margin-left: 45px;
+}
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding-bottom: 50px;
+ 
+}
+
+.box{
+    cursor: pointer;
+    text-align: center;
+    background-color: white;
+    width: 200px;
+    padding-bottom: 50px; 
+    margin-bottom: 20px;
+    padding: 25px;
+    position: relative;
+    /*   if -ve(left) ,+ve(bottom) , the smaller the valuethe sharper the shadow ,
+         +ve(increase the size of shadow , color )*/
+    box-shadow: 5px 5px 10px 3px rgb(221, 218, 218);   
+ 
+    
+}
+
+.box:hover {
+    transition: 0.7s;
+    transform: scale(1.1);
+}
+
+
+.underline-small{
+    position: relative;
+}
+
+.underline-small::after{
+    content: '';
+    height: 2px;
+    width: 7%;
+    background-color: darkolivegreen;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.tab5 {
+    border-collapse: separate;
+    border-spacing: 30px 30px;
+    font-weight: bold;
+}
+
+.rw {
+    border: 1px solid #D7DBDD;
+    width: 25%;
+    padding: 2% 2%;
+    font-family: "Times New Roman";
+    font-size: 10px;
+    text-align: left;
+    background-color: #F2F2F2;
+    font-weight: bold;
+    box-shadow: 0px 2px 8px 5px #D7DBDD;
+}
+
+.rw:hover {
+    transition: 0.7s;
+    transform: scale(1.1);
+}
+
+.ima{
+    border-collapse: separate;
+}
+
+.ima:hover{
+    transition: 0.7s;
+    transform: scale(1.1);
+    opacity: 0.5;
+}
+
+.foo{
+    color: cornsilk;
+}
