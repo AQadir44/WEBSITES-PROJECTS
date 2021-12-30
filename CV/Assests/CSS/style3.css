@@ -1,0 +1,57 @@
+.main {
+    padding: 100px 200px;
+    
+}
+
+.tab{
+    border-collapse: separate;
+    border-spacing: 18px;
+}
+
+/* 
+.tab td , .tab th{
+    border: 1px solid black;
+    font-family: Arial;
+    font-size: 13px;
+} */
+
+.mainhead {
+    text-align: center;
+    padding: 30px 30px 20px;
+    /* background-image: url(./Images/cover1.jpg) ; */
+}
+
+.mainhead h1{
+    margin-bottom: 0px;
+}
+
+
+
+.heading th {
+    font-size: x-large;
+    border-bottom: 2px solid #116466;
+}
+
+.a1 i {
+    padding: 0;
+    margin: 0;
+    padding-right: 10px;
+    color: #2c3531;
+}
+
+.a1 p{
+    padding-bottom: 5px ;
+    padding-left: 10px;
+    margin: 0px;
+}
+
+.last {
+    margin: 0;
+}
+
+.last i{
+    padding: 0;
+    margin: 0;
+    padding-right: 10px;
+    color: #2c3531;
+}
