@@ -1,0 +1,304 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+section {
+
+    width: 100%;
+    height: 100%;
+    /* z-index: 0; */
+    scroll-snap-align: center;
+} 
+
+
+
+/* Navbar */
+.navbar {
+    float: left;
+    display: flex;
+    position: fixed;
+    width: 170px;
+    height: 100%;
+    padding: 10px;
+    margin: 0px;
+    /* background-image: linear-gradient(140deg ,  white 10% ,#55b6b3 40% ,black 100%  );  */
+    background-color: black;
+
+}
+
+.navbar ul {
+    list-style-type: none;
+    cursor: pointer;
+    margin-top: 120px;
+    font-size: x-large;
+    padding-left: 10px;
+    /* width: 200px;
+    height: 100%;
+    padding: 10px;
+    margin: 0px;
+    background-color: #ADADAD; */
+    position: fixed;
+}
+
+.navbar h1 {
+    margin: 30px 30px 0px 0px;
+    text-align: center;
+    position: fixed;
+    color: #FFFFFF;
+}
+
+.navbar li {
+    padding: 8px 5px;
+
+}
+
+.navbar li:hover {
+    display: block;
+    background-color: #22a39f;
+
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+.navbar li a i {
+    padding: 10px 10px;
+}
+
+/* Other DOcument */
+
+
+
+.midsec {
+    padding-left: 190px;
+    /* background: no-repeat center right fixed url(./Assets/Images/back.jpg);
+    background-size: 1160px 700px;   */
+    background-color: #FFFFFF;
+    /* background-attachment: scroll; */
+}
+
+/*Home STyling */
+.name {
+    width: auto;
+    height: 645px;
+    /* background-image: linear-gradient(170deg , #E4CDA7 10% , #FFE6BC 40% , #8E806A 100%); */
+    /* padding: 120px 70px;   */
+    /* background-color: #55b6b3;
+    opacity: 0.8; */
+    background: no-repeat center right fixed url(../Images/back.jpg);
+    background-size: 1160px 700px;
+    
+
+}
+
+.overlay {
+    padding: 120px 70px;
+    margin: 0px;
+    height: 409px;
+    background: #22a39f;
+    background-size: 1160px 750px;
+    opacity: 0.7;
+    overflow: hidden;
+    /* z-index: 2; */
+}
+
+.n1 {
+    padding: 55px 70px;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif !important;
+
+
+}
+
+/* padding-bottom: 20px;
+    border-bottom: 1px solid #FFFFFF;
+    border-bottom-color: rgba(255,255,255,0.35); */
+
+.intro {
+    margin-bottom: 0px;
+    line-height: 70px;
+    font-size: 70px;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.des {
+    padding-top: 20px;
+    margin: 0px;
+    font-size: xx-large;
+}
+
+/* About Page STyling */
+
+.me {
+    padding: 260px 50px;
+    height: 300px;
+    
+}
+
+.mine {
+    padding: 10px 200px;
+    text-align: center;
+
+}
+
+.myself {
+    padding: 0px 90px;
+    margin: 0px;
+    font-size: 60px;
+    border-bottom: 2px dashed #22a39f;
+    width: 450px;
+}
+
+/*SKills styling */
+
+.skill {
+    padding: 150px 200px;
+    background-color: #f3efe0;
+    padding-top: 98px;
+    
+}
+
+.ski {
+    /* color: #22a39f; */
+    text-align: center;
+    /* border-bottom: 2px dashed #22a39f; */
+    font-size: 50px;
+}
+
+.chart p {
+    margin-bottom: 8px;
+    font-size: 25px;
+}
+
+.chart footer {
+    background-color: black;
+    height: 2px;
+}
+
+.chart footer div {
+    background-color: #22a39f;
+    height: 2px;
+}
+
+/* Projects Styling */
+
+.project {
+    padding: 29px 0px;
+    background-color: white;
+    
+}
+
+.pro {
+    /* color: #22a39f; */
+    text-align: center;
+    /* border-bottom: 2px dashed #22a39f; */
+    font-size: 50px;
+    margin-top: 0;
+}
+
+.minpro {
+    display: flex;
+}
+
+.p1 img {
+    width: 385px;
+    height: 260px;
+}
+
+.p1 {
+    position: relative;
+}
+
+.p1 img {
+    display: block;
+    /* width: 100%; */
+}
+
+
+
+
+.hide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #22a39f;
+    font-family: 'Open Sans', sans-serif !important;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.hide:hover {
+    opacity: 0.85;
+}
+
+.hide a h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    border-bottom: 1px solid white;
+    color: white;
+
+}
+
+.hide a {
+    text-decoration: none;
+}
+
+.p1 a:hover+.hide {
+    display: inline-block;
+    /* color: #22a39f; */
+    text-align: center;
+
+}
+
+/* Blog Content */
+
+.blog {
+    padding: 85px 0px;
+    height: 500px;
+    background-color: #f3efe0;
+
+}
+
+/* COntact Part */
+
+.contact {
+    padding: 100px 0px;
+    height: 500;
+    background-color: #22a39f;
+    opacity: 0.8;
+    
+}
+
+.contact h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.forms {
+    margin-top: 20;
+    color: #FFFFFF;
+    font-size: 30px;
+    text-align: center;
+}
